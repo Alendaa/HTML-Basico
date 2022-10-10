@@ -1,0 +1,22 @@
+O elemento HTML <audio>
+
+Para reproduzir um arquivo de áudio em HTML, use o elemento <audio>
+
+O controlsatributo adiciona controles de áudio, como reproduzir, pausar e volume.
+
+O <source> elemento permite especificar arquivos de áudio alternativos que o navegador pode escolher. O navegador usará o 
+primeiro formato reconhecido.
+
+O texto entre as tags <audio>e </audio>só será exibido em navegadores que não suportam o <audio> elemento.
+
+Observação: os navegadores Chromium não permitem reprodução automática na maioria dos casos. No entanto, a reprodução 
+automática sem som é sempre permitida.
+
+Adicione muteddepois autoplaypara permitir que seu arquivo de áudio comece a ser reproduzido automaticamente 
+(mas silenciado)
+
+Existem três formatos de áudio suportados: MP3, WAV e OGG
+
+MP3|	audio/mpeg
+OGG|	audio/ogg
+WAV|	audio/wav
